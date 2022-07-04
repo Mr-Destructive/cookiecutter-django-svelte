@@ -2,15 +2,8 @@
     "project_name": "My Site",
     "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
     "description": "My Cool Website!",
-    "author_name": "Meet Rajesh Gor",
-    "domain_name": "meetgor.com",
+    "author_name": "MR. Who",
+    "domain_name": "example.com",
     "email": "{{ cookiecutter.author_name.lower()|replace(' ', '-') }}@example.com",
-    "version": "0.0.1",
-    "open_source_license": [
-        "MIT",
-        "BSD",
-        "GPLv3",
-        "Apache Software License 2.0",
-        "Not open source"
-      ]
+    "version": "0.0.1"
 }

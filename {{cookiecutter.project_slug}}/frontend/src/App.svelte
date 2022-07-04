@@ -1,12 +1,15 @@
 {% raw %}
 <script>
-	export let name, backend, frontend;
+	export let backend, frontend;
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
+    {% endraw %}
+    <h1>{{ cookiecutter.project_name }}</h1>
+    <p>{{ cookiecutter.description }}</p>
+    {% raw %}
     <h3>{ backend } + { frontend } Application</h3>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+    <p>Made with <a href="https://cookiecutter.readthedocs.io/">Cookiecutter</a></p>
 </main>
 
 <style>
